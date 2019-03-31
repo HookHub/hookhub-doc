@@ -8,6 +8,7 @@ var hookhubDoc = function (docType, docTopic) {
       img: ''
     },
     messages: [],
+    options: {},
     setType: function (docType) {
       this.type = docType
     },
@@ -22,12 +23,13 @@ var hookhubDoc = function (docType, docTopic) {
       if (docSourceImg !== null) this.source.Img = docSourceImg
     },
 
-    addMessage: function (id, message, timestamp, url) {
+    addMessage: function (id, message, timestamp, url, options) {
       this.messages.push = {
         id: id,
         message: message,
         timestamp: timestamp,
-        url: url
+        url: url,
+        options: options
       }
     }
 

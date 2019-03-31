@@ -1,6 +1,6 @@
 {
   "name": "hookhub-doc",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Hookhub JSON Document for use in Hookhub hooks",
   "main": "index.js",
   "scripts": {
